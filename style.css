@@ -527,7 +527,7 @@ html,body{
     gap: 20px;
        
     }
-     #nright #shades{
+     .cubes {
        
         display: flex;
         align-items: center;
@@ -610,10 +610,51 @@ html,body{
         font-size: 62vw;
     }
     #sde{
-        border: 2px solid red ;
+     
         width: 100%;
-        height: 20px;
+       
         display: flex;
+    }
+
+    .bottom {
+       display: flex;
+       align-items: center;
+       
+    width: 100%;justify-content: center;
+        
+    }
+
+    .footer-left p{
+        font-size: 2px;
+        display: flex;
+      
+       
+       
+        align-items: center;
+        flex-direction: column;  
+    }
+
+    .footer-center {
+        justify-content: center;
+        gap: 10px;
+        
+       display: flex;
+       flex-direction: column;
+        font-size: 10px; 
+    }
+
+    .socials a {
+        margin-right: 10px;
+        
+        font-size: 10px;
+       
+    }
+
+    .footer-right {
+        text-align: right;
+        display: flex;
+       
+        flex-direction: column;
     }
 }
 
