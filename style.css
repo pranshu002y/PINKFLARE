@@ -515,15 +515,35 @@ html,body{
 
 
 
-/* @media(max-width: 500px){
+@media(max-width: 500px){
     #home #nav{
-        padding: 20px;
+      font-size: 10px;
+        display: flex;
+      align-items: center;
+      justify-content: center;
+        width: 100%;
+        
+        height: 50px;
+    gap: 20px;
+       
     }
+     #nright #shades{
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 50px;
+     }
+     .shadesrow span{
+        display: none;
+     }
 
     #overlay h1{
         bottom: 10%;
         font-weight: 900;
-        font-size: 15vw;
+       
+    font-size: 15vw;
     }
 
     #overlay #sech1{
@@ -532,6 +552,7 @@ html,body{
         -webkit-transform: translate(-50%,0) rotate(30deg);
             -ms-transform: translate(-50%,0) rotate(30deg);
                 transform: translate(-50%,0) rotate(30deg);
+             
     }
 
     #sidepurple{
@@ -542,6 +563,7 @@ html,body{
     #centerimg span{
         font-size: 4.5vw;
         margin-bottom: 2px;
+        
     }
 
     #centerimg #imagediv{
@@ -565,11 +587,13 @@ html,body{
     #smcircle{
         width: 100vw;
         height: 100vw;
+        
     }
 
     #circle{
         width: 270vw;
         height: 270vw;
+        
     }
 
     .circle{
@@ -585,10 +609,16 @@ html,body{
     #stop h1{
         font-size: 62vw;
     }
-} */
+    #sde{
+        border: 2px solid red ;
+        width: 100%;
+        height: 20px;
+        display: flex;
+    }
+}
 
 
-/* Mobile Responsive (phones) */
+
 
 
 /* Tablet Responsive (portrait + landscape tablets) */
