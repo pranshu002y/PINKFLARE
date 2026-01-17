@@ -4,7 +4,7 @@ function timelineOne() {
             trigger: "#home",
             start: "top top",
             scrub: 1,
-            pin: true,
+          
         }
     });
 
@@ -83,7 +83,7 @@ function timelineTwo() {
             pin: true,
             scrub: 1,
             end: "+=" + (window.innerHeight * 9),
-            markers: true
+           
         }
     })
 
