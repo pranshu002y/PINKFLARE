@@ -132,6 +132,14 @@ html,body{
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+            
+}
+#nav span a{
+    
+    text-decoration: none;
+    color: #111;
+    font-weight: 500;
+ 
 }
 
 .shadesrow{
